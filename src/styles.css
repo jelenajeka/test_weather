@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+h1{
+    color: white;
+    font-family: 'Lato Black', sans-serif;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+h2{
+    font-family: 'Lato Light', sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 30px;
+}
+p{
+    color: white;
+    font-family: 'Lato Light', sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+input{
+    /* color: white; */
+    font-family: 'Lato Light', sans-serif;
+    font-size: 18px;
+}
+/* .input-group-text seacrhbtn{
+    font-family: 'Lato Black', sans-serif;
+    font-size: 14px;
+} */
+    

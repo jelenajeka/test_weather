@@ -1,0 +1,27 @@
+<div class="container-fluid section2">
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <h2> today weather in featured cities</h2>
+
+        </div>
+        <div class="row">
+            <ul class="cities">
+                <li *ngFor="let city of cities?.list" class="cities_item">
+                    <h3>{{city.name}}</h3>
+                    <table>
+                        <tr>
+                            <td rowspan="2">
+                                <h3>{{city.main.temp}} &#8451;</h3>
+                            </td>
+                            <td>min: {{city.main.temp_min}}</td>
+                        </tr>
+                        <tr>
+                            <td>max: {{city.main.temp_max}}</td>
+                        </tr>
+
+                    </table>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

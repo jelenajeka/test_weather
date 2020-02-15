@@ -1,0 +1,25 @@
+.input-group.md-form.form-sm.form-2 input {
+    border: 1px solid #bdbdbd;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+}
+.searchbox {
+    border: 7px solid #8DCBC4;
+    border-radius: 3px;
+    width: 750px;
+}
+.searchBtn {
+    background-color: #1788AA;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    font-family: 'Lato Black', sans-serif;
+    font-size: 14px;
+}
+.center {
+    /* margin-top: 50px; */
+    /* margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px; */
+    padding: 50px 0px 120px 0px;
+    text-align: center;
+}

@@ -1,0 +1,17 @@
+.section1 {
+    background-image: url("assets/background-1440.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.navbar-light .navbar-nav .nav-link.active {
+    color: white;
+    text-decoration: underline;
+}
+.navbar a {
+    color: white;
+    font-family: 'Lato Light', sans-serif;
+    font-size: 18px;
+}
+

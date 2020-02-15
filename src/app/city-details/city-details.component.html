@@ -1,0 +1,50 @@
+<div class="container-fluid section2">
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <h2>current weather today, date, time </h2>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-4">
+                <!-- <img src="'/assets/' + {{data.icon}} + "'.gif'"> -->
+            </div>
+            <div class="col-md-4 line">
+                <table>
+                    <tr>
+                        <td rowspan="2">
+                            <h3>{{data.main.temp}} &#8451;</h3>
+                        </td>
+                        <td>min: {{data.main.temp_min}}</td>
+                    </tr>
+                    <tr>
+                        <td>max: {{data.main.temp_max}}</td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <h4>sunny</h4>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Perception:</td>
+                    </tr>
+
+                    <tr>
+                        <td> Humidity: {{data.main.humidity}} %</td>
+                    </tr>
+                    <tr>
+                        <td> Wind: {{data.wind.speed}} Km/h</td>
+                    </tr>
+                    <tr>
+                        <td>View in 16 days weather forecast</td>
+                    </tr>
+                </table>
+
+            </div>
+            <div class="col-md-4">
+                <!-- <ul><li *ngFor="let df of dataForecast?.list">
+                {{df.main.temp}}
+            </li></ul> -->
+            </div>
+        </div>
+    </div>
+</div>

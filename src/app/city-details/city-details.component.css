@@ -1,0 +1,19 @@
+.line {
+    border-right: 1px solid silver;
+}
+h3{
+    font-family: 'Lato Black', sans-serif;
+    font-size: 60px;
+    text-transform: uppercase;
+    padding: 5px;
+    color: #0F8CA8;
+    font-weight: bold;
+}
+h4{
+    font-family: 'Lato Black', sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 2px;
+    color: #0F8CA8;
+    font-weight: bold;
+}

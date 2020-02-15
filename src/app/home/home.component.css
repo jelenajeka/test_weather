@@ -1,0 +1,14 @@
+.section2{
+    background-color: white;
+}
+.cities{
+    margin: 0px;
+    list-style-type: none;
+    padding: 0px;
+    width:  25%;
+    height:300px;
+
+}
+/* .cities_item{
+
+} */

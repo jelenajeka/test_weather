@@ -1,0 +1,20 @@
+<div class="container center">
+    <div class="row d-flex justify-content-center">
+        <h1>{{city}}</h1>
+        <!-- <br> -->
+    </div>
+    <div class="row d-flex justify-content-center">
+        <p>{{country}}</p>
+    </div>
+
+    <div class="row d-flex justify-content-center">
+
+        <div class="input-group searchbox">
+            <input class="form-control" type="text" placeholder="Enter City" aria-label="Search" [(ngModel)]="cityModel">
+            <div class="input-group-append">
+                <!-- <span class="input-group-text seacrhbtn">SEARCH</span> -->
+                <button (click)="getWeather()" type="button" class="searchBtn">Search</button>
+            </div>
+        </div>
+    </div>
+</div>
